@@ -1,0 +1,71 @@
+.btn-1 { display: inline-block; margin: 0 0 2px 0; background: #e5e5e5 url(../images/dotted-bg-6.png) 0 0 repeat; border: 1px solid #cccccc; color: #00aad1 !important; font-size: 12px; line-height: 12px; font-weight: bold; text-align: left; text-decoration: none !important; text-transform: uppercase; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; text-shadow: #000 0 1px 0; box-shadow: 0 2px 0 rgba(0,0,0,0.1); -moz-box-shadow: 0 2px 0 rgba(0,0,0,0.1); -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.1); cursor: pointer; }
+	.btn-1 span { border: 1px solid #fff; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; display: inline-block; height: 21px; padding: 11px 35px 0 35px !important; }
+	.btn-1:hover { background: #c8ebf3 url(../images/dotted-bg-6.png) 0 0 repeat; }
+	.btn-1:active { background: #b6d9e1 url(../images/dotted-bg-6.png) 0 0 repeat; }
+.btn-1-align-left { margin: 0 20px 20px 0; float: left; }
+.btn-1-align-right { margin: 0 0 20px 20px; float: right; }
+	.post .btn-1:hover { background: #e5e5e5 url(../images/dotted-bg-11.png) 0 0 repeat; }
+	.post .btn-1:active { background: #e5e5e5 url(../images/dotted-bg-12.png) 0 0 repeat; }
+
+.btn-2 { display: inline-block; margin: 0 0 2px 0; background: #e5e5e5 url(../images/dotted-bg-6.png) 0 0 repeat; border: 1px solid #cccccc; color: #434343 !important; font-size: 24px; line-height: 12px; font-weight: bold; text-align: left; text-decoration: none !important; text-transform: uppercase; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; text-shadow: #000 0 1px 0; box-shadow: 0 2px 0 rgba(0,0,0,0.1); -moz-box-shadow: 0 2px 0 rgba(0,0,0,0.1); -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.1); cursor: pointer; }
+	.btn-2 span { border: 1px solid #fff; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; display: inline-block; height: 37px; padding: 19px 45px 0 45px !important; }
+	.btn-2:hover { background: #c8ebf3 url(../images/dotted-bg-6.png) 0 0 repeat; }
+	.btn-2:active { background: #b6d9e1 url(../images/dotted-bg-6.png) 0 0 repeat; }
+.btn-2-align-left { margin: 0 20px 20px 0; float: left; }
+.btn-2-align-right { margin: 0 0 20px 20px; float: right; }
+	.post .btn-2:hover { background: #e5e5e5 url(../images/dotted-bg-11.png) 0 0 repeat; }
+	.post .btn-2:active { background: #e5e5e5 url(../images/dotted-bg-12.png) 0 0 repeat; }
+
+
+.blockquote-quote-marks { margin: 0 25px 25px 25px; padding: 25px 0 0 0; background: url(../images/blockquote-quote-mark-top-bg.png) 0 10px no-repeat; }
+	.blockquote-quote-marks blockquote { margin: -15px 0 0 0; padding: 0 40px 4px 40px; background: url(../images/blockquote-quote-mark-bottom-bg.png) bottom right no-repeat; text-align: center; font-size: 17px; font-weight: bold; line-height: 24px; }
+
+.blockquote-dotted-box { width: 430px; margin: 20px auto; padding: 22px 45px; border: 1px dotted #0aaad0; background: none; border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; text-align: center; font-size: 17px; font-weight: bold; line-height: 24px; }
+
+.blockquote-stars { margin: 30px; padding: 0 0 0 0; background: url(../images/ico-star-2.png) center left no-repeat; }
+	.blockquote-stars blockquote { margin: -15px 0 0 0; padding: 0 40px 0 40px; background: url(../images/ico-star-2.png) center right no-repeat; text-align: center; font-size: 17px; font-weight: bold; line-height: 24px; }
+
+
+
+.list-dotted { padding: 7px 0 23px 0; margin: 0 0 0 100px; list-style-type: none; }
+	.list-dotted li { padding: 0 0 0 20px; margin: 4px 0 0 0; background: url(../images/ico-list-bullet-4.png) 0 5px no-repeat; font-weight: bold; }
+	.list-dotted li:first-child { margin: 0; }
+
+.list-circle { padding: 7px 0 23px 0; margin: 0 0 0 100px; list-style-type: none; }
+	.list-circle li { padding: 0 0 0 20px; margin: 4px 0 0 0; background: url(../images/ico-list-bullet-5.png) 2px 5px no-repeat; font-weight: bold; }
+	.list-circle li:first-child { margin: 0; }
+
+.list-checkmark { padding: 7px 0 23px 0; margin: 0 0 0 100px; list-style-type: none; }
+	.list-checkmark li { padding: 0 0 0 25px; margin: 4px 0 0 0; background: url(../images/ico-list-bullet-6.png) 0 4px no-repeat; font-weight: bold; }
+	.list-checkmark li:first-child { margin: 0; }
+
+.list-cross { padding: 7px 0 23px 0; margin: 0 0 0 100px; list-style-type: none; }
+	.list-cross li { padding: 0 0 0 23px; margin: 4px 0 0 0; background: url(../images/ico-list-bullet-7.png) 0 4px no-repeat; font-weight: bold; }
+	.list-cross li:first-child { margin: 0; }
+
+.spacer-dotted { width: 100%; height: 1px; margin: 25px 0; border-top: 1px dotted #cccccc; text-indent: -5000px; line-height: 1px; }
+.spacer-solid { width: 100%; height: 1px; margin: 25px 0; border-top: 1px solid #cccccc; text-indent: -5000px; line-height: 1px; }
+.spacer-title {  width: 100%; height: 7px; margin: 25px 0; background: #49bcd7 url(../images/post-title-bg.png) left -46px no-repeat; text-indent: -5000px; line-height: 7px; }
+.spacer-star {  width: 100%; height: 16px; margin: 25px 0; background: #49bcd7 url(../images/spacer-star-bg.png) 0 0 no-repeat; text-indent: -5000px; line-height: 16px; }
+
+
+.contact-form { padding: 15px 18px 25px 50px; }
+	.contact-form td { vertical-align: top; }
+	.contact-form p { margin: 0; }
+	.contact-form .label { width: 140px; padding: 4px 0 0 0; font-weight: bold; }
+	.contact-form .input-text-1 { width: 330px; }
+	.contact-form .text-area-1 { width: 330px; height: 150px; }
+	.contact-form .spacer-1 { height: 10px; }
+	.contact-form .show-all { padding: 0 !important; }
+
+
+
+.half-column-left { width: 272px; margin: 0 35px 25px 0; float: left; }
+.half-column-right { width: 272px; margin: 0 0 25px 0; float: left; }
+.one-third-column-1 { width: 169px; margin: 0 35px 25px 0; float: left; }
+.one-third-column-2 { width: 169px; margin: 0 35px 25px 0; float: left; }
+.one-third-column-3 { width: 169px; margin: 0 0 25px 0; float: left; }
+.one-fourth-column-1 { width: 118px; margin: 0 35px 25px 0; float: left; }
+.one-fourth-column-2 { width: 118px; margin: 0 35px 25px 0; float: left; }
+.one-fourth-column-3 { width: 118px; margin: 0 35px 25px 0; float: left; }
+.one-fourth-column-4 { width: 118px; margin: 0 0 25px 0; float: left; }

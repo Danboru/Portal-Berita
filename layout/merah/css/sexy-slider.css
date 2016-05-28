@@ -1,0 +1,29 @@
+#navigation { width: 871px; z-index: 300; font-size: 13px; font-weight: bold; text-transform: uppercase; overflow: hidden; }
+	#navigation a { color: #434343; text-decoration: none; }
+		#navigation a:hover { text-decoration: none; color: #00acd4; }
+	#navigation .sexyslider-prev { padding: 0 0 0 10px; margin: 0 0 0 250px; background: url(../images/ico-arrow-1.png) 0 5px no-repeat; float: left; }
+	#navigation .sexyslider-next { padding: 0 10px 0 0; margin: 0 270px 0 0; background: url(../images/ico-arrow-2.png) right 5px no-repeat; float: right; }
+	#navigation .sexyslider-next:hover { background: url(../images/ico-arrow-5.png) right 5px no-repeat; }
+
+
+.sexyslider-title { width: 851px !important; height: auto !important; margin: 0; padding: 13px 0 13px 20px; background-color: #000; z-index: 30 !important; position: absolute; }
+	.sexyslider-title a { max-width: 600px; font-size: 20px; line-height: 26px; color: #fff; font-weight: normal; text-decoration: none; display: block; }
+	.sexyslider-title a:hover { color: #00c3f0; text-decoration: none; }
+	.sexyslider-title p { max-width: 650px; color: #b2b2b2; }
+	
+.sexyslider-blog-title { width: 569px !important; height: auto !important; margin: 0; padding: 13px 0 13px 0px; z-index: 30 !important; position: absolute; }
+	.sexyslider-blog-title a { width: 537px !important; height: auto !important; color: #fff; bottom: 0; font-size: 16px; line-height: 21px; padding: 11px 16px; background: url(../images/blog-slider-title-bg.png) 0 0 repeat; z-index: 30 !important; position: absolute; text-decoration: none; }
+	.sexyslider-blog-title a:hover { color: #00c3f0; }
+
+
+
+#control { width: 200px; z-index: 300; text-align: center; font-size: 13px; margin: -19px auto 0 auto; }
+	#control a { padding: 4px 7px 1px 7px; margin: 0 2px; color: #434343; text-decoration: none; }
+	#control .active { background: #49bcd7 url(../images/dotted-bg-2.png) 0 0 repeat; }
+
+
+#homepage-slider { margin: 0 0 16px 0; }
+
+
+.homepage-slider { padding: 0 0 12px 0; }
+	.homepage-slider .shadow { width: 887px; height: 11px; line-height: 0; margin: 11px 0 0 0; position: absolute; background: url(../images/homepage-slider-shadow-bg.png) top center no-repeat; }

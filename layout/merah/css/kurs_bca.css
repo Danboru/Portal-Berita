@@ -1,0 +1,48 @@
+#nKurs {
+	width: 248px;
+	background: #FFFFFF;
+	padding: 1px;
+}
+#nKurs table {
+	border: 1px solid #B6B6B6;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+#nKurs table th {
+	color: #FFFFFF;
+	background-color:#C20000;
+	font-size: 12px;
+	padding: 2px 0px;
+	text-transform: uppercase;	
+	
+}
+#nKurs table td {
+	font-size: 11px;
+	color:#666;
+	padding: 1px 2px;
+	
+}
+#nKurs table td.curr {
+	font-weight: bold;
+}
+#nKurs table td.row1 {
+	background-color:#F2F2F2;
+}
+#nKurs table td.row2 {
+	background-color: #Fff;
+}
+#nKurs cite {
+	display: block;
+	color:#666;
+	font-style: normal;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: center;
+}
+#nKurs a:link, #nKurs a:visited {
+	color:#C20000;
+	text-decoration: none;
+}
+#nKurs a:hover {
+	color: #FF0000;
+}

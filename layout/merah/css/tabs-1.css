@@ -1,0 +1,56 @@
+.tabs-1 { 
+  margin: 0 0 20px 0; 
+  border-bottom: 3px solid #C20000; 
+  overflow: hidden; 
+}
+
+.tabs-1 table { margin: 0 auto; }
+
+.tabs-1 a {
+	background: #e5e5e5;
+	color: #333333;
+	float: left;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: #f3e6da 0 1px 0;
+	border-top: 1px solid #C20000;
+	border-left: 1px solid #C20000;
+	border-right: 1px solid #C20000;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-right: 2px;
+	margin-bottom: 0;
+	margin-left: 2px;
+}
+
+.tabs-1 a:hover { background:#EA1C1C; color: #FFFFFF;}
+
+.tabs-1 a:active { background: #EA1C1C; }
+
+.tabs-1 a span {
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	display: block;
+	height: 22px;
+	text-align: center;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 6px;
+	padding-left: 8px;
+  vertical-align : middle; 
+  display : table-cell;
+  horizontal-align : middle;
+	display : table-cell;
+}
+      
+.tabs-1 .active {
+	background: #C20000;
+	color: #FFFFFF;
+}
+
+.tabs-1 .active:hover {
+	background: #fff url(../images/dotted-bg-6.png) 0 0 repeat;
+	color: #333333;
+}

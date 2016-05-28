@@ -1,0 +1,54 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^index\.php$ media.php?module=home [L]
+RewriteRule ^profil-kami\.html$ media.php?module=profilkami&id=$1 [L]
+RewriteRule ^berita-(.*)\.html$ media.php?module=detailberita&judul=$1 
+RewriteRule ^halkomentar-(.*)-([0-9]+)\.html$ media.php?module=detailberita&judul=$1&halkomentar=$2 [L]
+
+RewriteRule ^indeks-berita\.html$ media.php?module=indeksberita&id=$1 [L]
+RewriteRule ^halberita-(.*)\.html$ media.php?module=semuaberita&halberita=$1 [L]
+
+RewriteRule ^kategori-(.*)\.html$ media.php?module=detailkategori&id=$1 [L]
+RewriteRule ^halkategori-(.*)-([0-9]+)\.html$ media.php?module=detailkategori&id=$1&halkategori=$2 [L]
+RewriteRule ^hasil-pencarian\.html$ media.php?module=hasilcari&id=$1 [L]
+
+RewriteRule ^semua-berita\.html$ media.php?module=semuaberita&id=$1 [L]
+
+RewriteRule ^album-([0-9]+)-(.*)\.html$ media.php?module=detailalbum&id=$1 [L]
+RewriteRule ^semua-album\.html$ media.php?module=semuaalbum&id=$1 [L]
+RewriteRule ^galeri-(.*)\.html$ zoom.php?id=$1 [L]
+RewriteRule ^halgaleri-([0-9]+)-(.*)\.html$ media.php?module=detailalbum&id=$1&halgaleri=$2 [L]
+
+RewriteRule ^semua-agenda\.html$ media.php?module=semuaagenda&id=$1 [L]
+RewriteRule ^halagenda-(.*)\.html$ media.php?module=semuaagenda&halagenda=$1 [L]
+RewriteRule ^agenda-(.*)\.html$ media.php?module=detailagenda&tema=$1 [L]
+
+RewriteRule ^hasil-poling\.html$ media.php?module=hasilpoling&id=$1 [L]
+RewriteRule ^lihat-poling\.html$ media.php?module=lihatpoling&id=$1 [L]
+
+RewriteRule ^semua-download\.html$ media.php?module=semuadownload&id=$1 [L]
+RewriteRule ^haldownload-(.*)\.html$ media.php?module=semuadownload&haldownload=$1 [L]
+
+RewriteRule ^play-([0-9]+)-(.*)\.html$ media.php?module=play&id=$1 [L]
+RewriteRule ^halkomentarvideo-([0-9]+)-(.*)\.html$ media.php?module=play&id=$1&halkomentarvideo=$2 [L]
+RewriteRule ^halvideo-([0-9]+)-(.*)\.html$ media.php?module=detailplaylist&id=$1&halvideo=$2 [L]
+RewriteRule ^playlist-([0-9]+)-(.*)\.html$ media.php?module=detailplaylist&id=$1 [L]
+RewriteRule ^semua-playlist\.html$ media.php?module=semuaplaylist&id=$1 [L]
+RewriteRule ^halplaylist-(.*)\.html$ media.php?module=semuaplaylist&halplaylist=$1 [L]
+
+RewriteRule ^hubungi-kami\.html$ media.php?module=hubungikami&id=$1 [L]
+RewriteRule ^hubungi-aksi\.html$ media.php?module=hubungiaksi&id=$1 [L]
+
+RewriteRule ^login\.html$ media.php?module=login [L]
+RewriteRule ^daftar\.html$ media.php?module=daftar [L]
+RewriteRule ^cek-login\.html$ media.php?module=ceklogin [L]
+RewriteRule ^daftar-aksi\.html$ media.php?module=daftaraksi [L]
+RewriteRule ^logout\.html$ media.php?module=logout [L]
+
+RewriteRule ^not-found\.html$ media.php?module=notfound&id=$1 [L]
+
+RewriteRule ^hal-(.*)\.html$ media.php?module=halamanstatis&judul=$1 [L]
+
+Options All -Indexes
+</IfModule>

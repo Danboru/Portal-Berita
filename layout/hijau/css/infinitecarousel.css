@@ -1,0 +1,69 @@
+.infiniteCarousel {
+  width: 583px;
+  position: relative;
+  margin-bottom: -50px;
+}
+
+.infiniteCarousel .wrapper {
+	width: 560px; /* .infiniteCarousel width - (.wrapper margin-left + .wrapper margin-right) */
+	overflow: auto;
+	position: relative;
+	margin-right: 2px;
+	margin-left: 7px;
+}
+
+
+
+.infiniteCarousel .wrapper ul {
+  width: 10000px;
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  position: relative;
+  top: 0;
+}
+
+.infiniteCarousel ul li {
+	display:block;
+	float:left;
+	height: 205px;
+	width: 120px;
+	text-align: center;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+
+
+
+.infiniteCarousel .arrow {
+  display: block;
+  height: 46px;
+  width: 14px;
+  background: url('../images/carousel_arrows.png') no-repeat 0 0;
+  position: absolute;
+  top: 30px;
+  cursor: pointer;
+}
+
+.infiniteCarousel .forward {
+  background-position: 0 0;
+  right: 0;
+}
+
+.infiniteCarousel .back {
+  background-position: 0 -92px;
+  left: 0;
+}
+
+.infiniteCarousel .forward:hover {
+  background-position: 0 -46px;
+}
+
+.infiniteCarousel .back:hover {
+  background-position: 0 -138px;
+}
+
